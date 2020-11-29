@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Landing Page</title>
@@ -12,12 +14,17 @@
     <div class="grey-bg">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
-          <div class="">Welcome to Realt Loans</div>
-          <div class="">Facebook-Icon, Twitter-Icon, <button class="btn btn-primary">Get a quote</button></div>
+          <div class="">Welcome to RealtLoans</div>
+          <div class="">
+            <a href="#" class="mr-3 text-dark"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="mr-3 text-dark"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="mr-3 text-dark"><i class="fab fa-linkedin-in"></i></a> 
+            <button class="btn text-white light-purple-bg px-4 rounded-0 ml-3">Get a quote</button>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container my-3">
       <div class="row">
         <div class="col-md-4">RealtLoans</div>
         <div class="col-md-8">
@@ -30,7 +37,7 @@
       </div>
     </div>
   </header>
-  <nav class="container purple-bg">
+  <nav class="container purple-bg py-3 shadow">
     <a href="#">Home</a>
     <a href="#">About Us</a>
     <a href="#">Services</a>
@@ -43,26 +50,26 @@
     <div class="container py-5">
       <h1 class="mt-5 pt-5 w-50">Communication is the key for any Global Business</h1>
       <div class="my-5">
-        <button class="btn btn-white shadow">About Us</button>
-        <button class="btn btn-primary">Our Services</button>
+        <button class="btn border py-2 shadow px-5 rounded-0">About Us</button>
+        <button class="btn text-white py-2 light-purple-bg shadow ml-3 px-5 rounded-0">Our Services</button>
       </div>
     </div>
     <div class="purple-bg py-3 mb-5">
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
           <div class="">
-            <p class="text-white">Would you like to speak to one of our financial advisors?</p>
+            <div class="text-white">Would you like to speak to one of our financial advisors?</div>
             <span class="text-white">Just submit your contact details and we'll be in touch shortly</span>
           </div>
           <div class="">
-            <button class="btn btn-primary">Get a Qoute</button>
+            <button class="btn text-white light-purple-bg rounded-0 px-4">Get a Qoute</button>
           </div>
         </div>
       </div>
     </div>
     <div class="container text-center py-5 mb-5">
       <h3 class="pb-5">About Us</h3>
-      <p class="pb-4">
+      <p class="pb-5 dark-grey-text">
         Organize your file and documentation so that it is easy to view, 
         edit and understand. Group, label and organize common elements so 
         that buyers are able to easily edit your file. The more editable 
@@ -71,33 +78,33 @@
         best practices in the industry.
       </p>
       <div class="row">
-        <div class="col-md-4">
-          <div class="card shadow p-4">
-            <div>Icon</div>
+        <div class="col-md-4 mr-n4">
+          <div class="card shadow p-4 rounded-0">
+            <div><i class="fas fa-2x grey-text mb-4 fa-comment-dollar"></i></div>
             <h5>Financial Projections</h5>
-            <p>
+            <p class="dark-grey-text mt-3">
               Make sure you have the right 
               to use any of your assets in a 
               commercial resale work.
             </p>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card shadow p-4">
-            <div>Icon</div>
+        <div class="col-md-4 ml-n1 mr-n1">
+          <div class="card p-4 shadow rounded-0">
+            <div><i class="fas fa-2x grey-text mb-4 fa-receipt"></i></div>
             <h5>Strategy and Consulting</h5>
-            <p>
+            <p class="dark-grey-text mt-3">
               Make sure you have the right 
               to use any of your assets in a 
               commercial resale work.
             </p>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card shadow p-4">
-            <div>Icon</div>
+        <div class="col-md-4 ml-n4">
+          <div class="card shadow p-4 rounded-0">
+            <div><i class="fas fa-2x grey-text mb-4 fa-money-bill-wave"></i></div>
             <h5>Online Consulting</h5>
-            <p>
+            <p class="dark-grey-text mt-3">
               Make sure you have the right 
               to use any of your assets in a 
               commercial resale work.
@@ -109,114 +116,103 @@
     <div class="purple-bg text-white py-4 mb-5">
       <div class="container text-center">
         <h3>We advise you, you call the right decision</h3>
-        <p>We help everybody get their act together before they talk to investors.</p>
+        <p class="mb-5 mb-3">We help everybody get their act together before they talk to investors.</p>
         <div class="row">
           <div class="col-md-3">
-            <div>Icon</div>
-            <div>90</div>
+            <div><i class="fas fa-lg fa-cubes rounded border p-3 mb-3"></i></div>
+            <h2>90</h2>
             <p>Companies consulted</p>
           </div>
           <div class="col-md-3">
-            <div>Icon</div>
-            <div>120</div>
+            <div><i class="fas fa-lg fa-users rounded border p-3 mb-3"></i></div>
+            <h2>120</h2>
             <p>Consultants</p>
           </div>
           <div class="col-md-3">
-            <div>Icon</div>
-            <div>50</div>
+            <div><i class="fas fa-lg fa-medal rounded border p-3 mb-3"></i></div>
+            <h2>50</h2>
             <p>Awards won</p>
           </div>
           <div class="col-md-3">
-            <div>Icon</div>
-            <div>240</div>
+            <div class="">
+              <i class="fas fa-lg fa-star rounded border p-3 mb-3"></i></div>
+            <h2>240</h2>
             <p>Satisfied Customers</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <h3 class="text-center">Our Industries</h3>
+    <div class="container py-5">
+      <h3 class="text-center pb-5">Our Industries</h3>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5">
           <div class="row">
-            <div class="col-md-4">Icon</div>
-            <div class="col-md-8">
+            <div class="col-md-3 text-right"><i class="fas fa-2x fa-chart-pie grey-text"></i></div>
+            <div class="col-md-9">
               <h5>Corporate Finance</h5>
-              <p>
+              <p class="dark-grey-text">
                 Do not assume that the buyer of your item has 
-                any significant level of coding knowledge. 
-                When preparing your documentation, treat 
-                the buyer like a beginner.
+                any significant level of coding knowledge.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5">
           <div class="row">
-            <div class="col-md-4">Icon</div>
-            <div class="col-md-8">
+            <div class="col-md-3 text-right"><i class="fas fa-2x grey-text fa-balance-scale-right"></i></div>
+            <div class="col-md-9">
               <h5>Economic Consulting</h5>
-              <p>
+              <p class="dark-grey-text">
                 Do not assume that the buyer of your item has 
-                any significant level of coding knowledge. 
-                When preparing your documentation, treat 
-                the buyer like a beginner.
+                any significant level of coding knowledge.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-5">
           <div class="row">
-            <div class="col-md-4">Icon</div>
-            <div class="col-md-8">
+            <div class="col-md-3 text-right"><i class="fas fa-2x grey-text fa-landmark"></i></div>
+            <div class="col-md-9">
               <h5>Forensic & Litigation</h5>
-              <p>
+              <p class="dark-grey-text">
                 Do not assume that the buyer of your item has 
-                any significant level of coding knowledge. 
-                When preparing your documentation, treat 
-                the buyer like a beginner.
+                any significant level of coding knowledge.
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="row">
-            <div class="col-md-4">Icon</div>
-            <div class="col-md-8">
+            <div class="col-md-3 text-right"><i class="fas fa-2x fa-piggy-bank grey-text"></i></div>
+            <div class="col-md-9">
               <h5>Strategic Communications</h5>
-              <p>
+              <p class="dark-grey-text">
                 Do not assume that the buyer of your item has 
-                any significant level of coding knowledge. 
-                When preparing your documentation, treat 
-                the buyer like a beginner.
+                any significant level of coding knowledge.
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="row">
-            <div class="col-md-4">Icon</div>
-            <div class="col-md-8">
+            <div class="col-md-3 text-right"><i class="fas fa-2x fa-stamp grey-text"></i></div>
+            <div class="col-md-9">
               <h5>Technology Consulting</h5>
-              <p>
+              <p class="dark-grey-text">
                 Do not assume that the buyer of your item has 
-                any significant level of coding knowledge. 
-                When preparing your documentation, treat 
-                the buyer like a beginner.
+                any significant level of coding knowledge.
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="row">
-            <div class="col-md-4">Icon</div>
-            <div class="col-md-8">
+            <div class="col-md-3 text-right"><i class="fas fa-2x fa-wallet grey-text"></i></div>
+            <div class="col-md-9">
               <h5>Heathcare Consulting</h5>
-              <p>
+              <p class="dark-grey-text">
                 Do not assume that the buyer of your item has 
-                any significant level of coding knowledge. 
-                When preparing your documentation, treat 
-                the buyer like a beginner.
+                any significant level of coding knowledge.
               </p>
             </div>
           </div>
@@ -232,34 +228,34 @@
         </p>
         <div class="row my-5">
           <div class="col-md-3">
-            <div class="card">
+            <div class="card rounded-0 shadow">
               <div>
-                <p>Nakitto Catherine</p>
-                <p>CEO</p>
+                <div>Nakitto Catherine</div>
+                <span>CEO</span>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card">
+            <div class="card rounded-0 shadow">
               <div>
-                <p>Namwirya Ella</p>
-                <p>Programs Manager</p>
+                <div>Namwirya Ella</div>
+                <span>Programs Manager</span>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card">
+            <div class="card rounded-0 shadow">
               <div>
-                <p>Nahirya Adeline</p>
-                <p>CTO</p>
+                <div>Nahirya Adeline</div>
+                <span>CTO</span>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-            <div class="card">
+            <div class="card rounded-0 shadow">
               <div>
-                <p>Nabukenya Brenda</p>
-                <p>Customer care</p>
+                <div>Nabukenya Brenda</div>
+                <span>Customer care</span>
               </div>
             </div>
           </div>
@@ -286,7 +282,7 @@
               <input class="form-control" type="text" placeholder="Phone Number?">
             </div>
             <div class="col-md-3">
-              <button class="btn btn-primary form-control"type="submit">Submit ></button>
+              <button class="btn text-white light-purple-bg form-control"type="submit">Submit ></button>
             </div>
           </div>
         </form>
@@ -353,24 +349,29 @@
             <p>Subscribe for weekly updates about RealtLoans</p>
             <form action="#" method="post">
               <input class="form-control" type="email" name="email" id="">
-              <button class="btn btn-primary form-control"type="submit">Subscribe</button>
+              <button class="btn text-white light-purple-bg form-control mt-3"type="submit">Subscribe</button>
             </form>
           </div>
         </div>
       </div>
     </div>
-    
-    <div class="container">
-      <div class="d-flex justify-content-between">
-        <p>&copy; RealtLoans, 2020.</p>
-        <div>
-          <a href="#">Facebook</a>
-          <a href="#">Twitter</a>
-          <a href="#">Telegram</a>
-          <a href="#">Whatsapp</a>
+    <div class="dark-purple-bg text-white">
+      <div class="container py-2">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>&copy; RealtLoans, 2020.</div>
+          <div>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="ml-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="ml-3"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="ml-3"><i class="fab fa-telegram-plane"></i></a>
+          </div>
         </div>
       </div>
     </div>
   </footer>
+  <script
+    src="https://kit.fontawesome.com/7290f27402.js"
+    crossorigin="anonymous"
+  ></script>
 </body>
 </html>

@@ -1,7 +1,32 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
 .grey-bg {
   background-color: #eff0f4;
 }
 
 .purple-bg {
   background-color: #221541;
+}
+
+.dark-purple-bg {
+  background-color: #180c34;
+}
+
+.light-purple-bg {
+  background-color: #682ee5;
+}
+
+.grey-text {
+  color: #c0c0c0
+}
+
+.dark-grey-text {
+  color: #818181;
 }
