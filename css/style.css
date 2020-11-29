@@ -30,3 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 .dark-grey-text {
   color: #818181;
 }
+
+.header-bg-img {
+  background-size: cover;
+  background-image: url("../img/header2.jpg");
+}
